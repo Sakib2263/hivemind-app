@@ -1,2 +1,4 @@
 Thumbs.db
 .DS_Store
+# local screenshots of real data: never publish
+assets/screenshots/
