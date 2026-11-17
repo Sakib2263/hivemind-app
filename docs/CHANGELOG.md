@@ -1,5 +1,18 @@
 # What's new
 
+## 2026.11.17.7 — November 17, 2026
+
+- **Improved:** Saving never waits for patch notes; publishing the app site is its own step, with notes drafted for you.
+- **Fixed:** The notification tray opens above everything; the patch notes field can be edited.
+
+## 2026.11.17.5 — 2026-11-17
+- **New:** Notification center: one bell, one item per problem, and items clear themselves once fixed.
+- **New:** Usage screen shows every provider, with a Refresh button and old readings marked.
+- **Improved:** Usage numbers refresh by themselves every 10 minutes.
+- **Improved:** Simple jobs go to free AI models first, saving paid quota.
+- **Improved:** Save & update keeps the app site in step and says clearly when it could not.
+- **Fixed:** The save message fills in again after an earlier save.
+
 ## 2026.11.17.2 — 2026-11-17
 - **New:** Delete chats and projects safely; deleted folders go to the Recycle Bin.
 - **New:** First-run guide, plus a banner when setup needs a re-check.
