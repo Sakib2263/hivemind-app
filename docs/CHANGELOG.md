@@ -1,5 +1,9 @@
 # What's new
 
+## 2026.11.17.8 — November 17, 2026
+
+- **Improved:** Patch notes are drafted for you when the app site is behind, and the field says when there is nothing to publish.
+
 ## 2026.11.17.7 — November 17, 2026
 
 - **Improved:** Saving never waits for patch notes; publishing the app site is its own step, with notes drafted for you.
