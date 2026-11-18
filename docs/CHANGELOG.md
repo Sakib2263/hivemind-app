@@ -1,5 +1,40 @@
 # What's new
 
+## 2026.11.18.5 — November 19, 2026
+
+- **New:** Film and anime directing guide: story checks, shot lists, continuity locks and render fixes.
+- **Improved:** More natural voices, clear pauses between speakers and scenes, and sound effects that stay off the dialogue.
+- **Improved:** Dialogue timing between speakers and scenes now follows clear rules, and the mix is checked automatically.
+- **Improved:** Shot lists for films and animations are checked automatically for continuity mistakes before rendering.
+- **Improved:** The engine no longer reports a job as done when no AI model actually ran it.
+- **Improved:** The Models screen shows real success rates and history for every AI model, from the engine's own job log.
+- **Improved:** Usage keeps a history of every provider's limits, Claude included, so past days never go missing.
+- **Improved:** Usage and job history on each PC are protected and never overwritten by syncing.
+- **Improved:** Pop-ups and menus are checked automatically so they can never open behind other parts of the screen.
+- **Improved:** The app tells you when an update is ready and installs it with one click.
+- **New:** Success rates and history for every AI model, from real job results.
+- **New:** Usage history for every provider, Claude included, with charts.
+- **New:** One-click "Update ready - Install" in the app.
+- **Improved:** Syncing never overwrites this PC's usage and job history.
+- **Fixed:** A job is never shown as done when no AI model actually ran it.
+- **New:** Day-by-day usage record: tokens, cost and success rate for every provider and model.
+- **Improved:** Usage keeps a day-by-day record of tokens, cost and success rate for every provider and model.
+- **Improved:** Cleaner screens: update pill in the top bar, collapsible sections, compact provider cards and model table, Jobs and Activity in one tab, file search.
+- **Fixed:** Notification tray background, usage overlay switch, update notice that never cleared, and the error page while the app starts.
+- **Improved:** Cleaner layout: updates show as a small pill in the top bar, sections can be collapsed, and loading animations fill their space.
+- **Improved:** Usage and Models screens are compact: one card per provider and one table for model success, with small inline charts.
+- **Improved:** Jobs and Activity are one tab, and Files has search.
+- **Improved:** Usage screen redesigned: compact provider cards, a clear day-by-day table with sorting, and small charts that make sense.
+- **Improved:** Models are grouped under the right provider everywhere, and clicking a provider opens its sign-in or key.
+- **Improved:** AI models and Setup are easier: long sections start collapsed, failing models are named with a fix button, and DeepSeek is not marked broken before a key is added.
+- **Improved:** Jobs table fits the screen, and chats show a thinking animation while waiting for a reply.
+- **Improved:** One crashed attempt no longer blocks the best AI model for an hour.
+- **Improved:** Usage redesigned: compact provider cards, a sortable day-by-day table and clear small charts.
+- **Improved:** AI models and Setup: long sections start collapsed, failing models are named with a fix, and clicking a provider opens its sign-in or key.
+- **Improved:** Jobs table fits the screen; chats show a thinking animation while waiting.
+- **Fixed:** Jobs that changed nothing are no longer marked done; one crashed try no longer blocks a model for an hour.
+- **Improved:** A job that changed nothing is flagged for review instead of counted as done.
+
 ## 2026.11.17.8 — November 17, 2026
 
 - **Improved:** Patch notes are drafted for you when the app site is behind, and the field says when there is nothing to publish.
