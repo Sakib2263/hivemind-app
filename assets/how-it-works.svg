@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" font-family="Inter,Segoe UI,Arial,sans-serif">
+  <rect width="960" height="220" rx="18" fill="#16181d"/>
+  <path id="flow" d="M110 110 H850" stroke="#2c313b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <g font-size="15" fill="#e8eaef" text-anchor="middle">
+    <g><circle cx="110" cy="110" r="38" fill="#1f2430" stroke="#7aa2ff" stroke-width="2"><animate attributeName="stroke-width" values="2;5;2" dur="6s" begin="0s" repeatCount="indefinite"/></circle><text x="110" y="115">You ask</text><text x="110" y="175" font-size="12" fill="#9aa3b2">chat or task</text></g>
+    <g><circle cx="295" cy="110" r="38" fill="#1f2430" stroke="#b38cff" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.2;0.3;1" dur="6s" repeatCount="indefinite"/></circle><text x="295" y="115">Lead plans</text><text x="295" y="175" font-size="12" fill="#9aa3b2">Claude: small jobs + checks</text></g>
+    <g><circle cx="480" cy="110" r="38" fill="#1f2430" stroke="#4fd1a5" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.4;0.5;1" dur="6s" repeatCount="indefinite"/></circle><text x="480" y="115">Free AIs build</text><text x="480" y="175" font-size="12" fill="#9aa3b2">best model per task</text></g>
+    <g><circle cx="665" cy="110" r="38" fill="#1f2430" stroke="#ffc861" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.6;0.7;1" dur="6s" repeatCount="indefinite"/></circle><text x="665" y="115">Scripts check</text><text x="665" y="175" font-size="12" fill="#9aa3b2">tests decide, not models</text></g>
+    <g><circle cx="850" cy="110" r="38" fill="#1f2430" stroke="#7aa2ff" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.8;0.9;1" dur="6s" repeatCount="indefinite"/></circle><text x="850" y="115">Done</text><text x="850" y="175" font-size="12" fill="#9aa3b2">reviewed + saved</text></g>
+  </g>
+  <circle r="7" fill="#e8eaef"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#flow"/></animateMotion></circle>
+</svg>

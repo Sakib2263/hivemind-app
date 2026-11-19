@@ -1,5 +1,29 @@
 # What's new
 
+## 2026.11.20.3 — November 20, 2026
+
+- **Improved:** The app stays signed in after an update, and the Jobs list no longer shows internal files as failed jobs.
+- **Improved:** New AI providers you add a key for are found automatically, checked, and shown in the app; the model check now tests models correctly.
+- **Improved:** Usage data uses one name per provider everywhere and is saved at start, every 10 minutes and at shutdown, so Claude and others always show.
+- **Improved:** Work is spread across all your connected AI providers by task type, and new providers get tried automatically.
+- **Improved:** Setup and AI models show one row per provider with its models folded inside, separate free and paid OpenCode slots, and what each provider is used for.
+- **Improved:** Screenshots for the website use sample data only, never your own projects or files.
+- **New:** New AI providers you add a key for are found, checked and put to work automatically.
+- **New:** Work is spread across your providers by task type (building, reviews, research, images, quick answers).
+- **Improved:** Setup and AI models show one row per provider, with separate free and paid OpenCode slots.
+- **Improved:** Usage data uses one name per provider and is saved at start, every 10 minutes and at shutdown.
+- **Fixed:** The app stays signed in after an update; model checks test the right models.
+- **Improved:** Setup shows one line per provider that needs attention, AI models lists connected providers first, and checks rerun after each update.
+- **Improved:** New charts for token history and daily cost and success, with clear legends and tooltips.
+- **Improved:** Setup lists one line per provider that needs attention; AI models shows connected providers first.
+- **New:** A built-in list of 2,500 free public APIs that apps and games can draw on.
+- **Fixed:** Claude now appears in every usage breakdown.
+- **Improved:** Demo mode shows every screen correctly, and one broken panel can no longer blank the whole app.
+- **Improved:** Usage and AI models screens no longer break when some data is missing.
+- **Improved:** Website screenshots look like a real, well-used app with consistent sample data.
+- **Improved:** Many screen fixes from a design review: phone chat bar, consistent colours in light mode, readable send button, aligned job actions, no cut-off rows, better empty states.
+- **Improved:** Sample data for website screenshots is consistent across all screens.
+
 ## 2026.11.18.5 — November 19, 2026
 
 - **New:** Film and anime directing guide: story checks, shot lists, continuity locks and render fixes.
