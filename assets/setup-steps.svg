@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Set up Hivemind Control</title>
+  <desc id="desc">Seven setup steps, highlighted in order: Download, Unzip, Install WSL, Install AI tools, Log in, Check everything, and Open Hivemind Control.</desc>
+  <style>
+    .title { font: 700 26px system-ui, sans-serif; fill: #30291f; }
+    .step { font: 600 19px system-ui, sans-serif; fill: #30291f; }
+    .num { font: 700 15px system-ui, sans-serif; fill: #8a5100; text-anchor: middle; }
+    .line { stroke: #e8a33d; stroke-width: 3; opacity: .35; }
+    .hex { fill: #e8a33d; fill-opacity: .13; stroke: #e8a33d; stroke-width: 3; }
+    .row { animation: step 14s infinite; }
+    .r1 { animation-delay: 0s; }
+    .r2 { animation-delay: 2s; }
+    .r3 { animation-delay: 4s; }
+    .r4 { animation-delay: 6s; }
+    .r5 { animation-delay: 8s; }
+    .r6 { animation-delay: 10s; }
+    .r7 { animation-delay: 12s; }
+    @keyframes step {
+      0%, 14% { opacity: 1; }
+      16%, 100% { opacity: .38; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .title, .step { fill: #f1e9dc; }
+      .num { fill: #ffd58f; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .row { animation: none; opacity: 1; }
+    }
+  </style>
+  <text class="title" x="86" y="48">A few steps, then you're ready</text>
+  <line class="line" x1="48" y1="90" x2="48" y2="468" />
+  <g class="row r1"><polygon class="hex" points="69,101 59,119 38,119 28,101 38,83 59,83"/><text class="num" x="48" y="106">1</text><text class="step" x="88" y="107">Download</text></g>
+  <g class="row r2"><polygon class="hex" points="69,159 59,177 38,177 28,159 38,141 59,141"/><text class="num" x="48" y="164">2</text><text class="step" x="88" y="165">Unzip</text></g>
+  <g class="row r3"><polygon class="hex" points="69,217 59,235 38,235 28,217 38,199 59,199"/><text class="num" x="48" y="222">3</text><text class="step" x="88" y="223">Install WSL</text></g>
+  <g class="row r4"><polygon class="hex" points="69,275 59,293 38,293 28,275 38,257 59,257"/><text class="num" x="48" y="280">4</text><text class="step" x="88" y="281">Install AI tools</text></g>
+  <g class="row r5"><polygon class="hex" points="69,333 59,351 38,351 28,333 38,315 59,315"/><text class="num" x="48" y="338">5</text><text class="step" x="88" y="339">Log in</text></g>
+  <g class="row r6"><polygon class="hex" points="69,391 59,409 38,409 28,391 38,373 59,373"/><text class="num" x="48" y="396">6</text><text class="step" x="88" y="397">Check everything</text></g>
+  <g class="row r7"><polygon class="hex" points="69,449 59,467 38,467 28,449 38,431 59,431"/><text class="num" x="48" y="454">7</text><text class="step" x="88" y="455">Open Hivemind Control</text></g>
+</svg>

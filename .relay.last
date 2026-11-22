@@ -1,0 +1,7 @@
+Done: Added the animated setup guide and a friendly install, update, uninstall, and troubleshooting guide. Removed third-party company and product names from the README.
+
+Files: [README.md](/mnt/d/00.Claude/hivemind-app-release/README.md), [setup-steps.svg](/mnt/d/00.Claude/hivemind-app-release/assets/setup-steps.svg)
+
+Ran: `python3` XML parse passed; SVG is 2,768 bytes. `rg` confirmed the requested sections and retained content. `python` was unavailable, so validation used `python3`. No Git commands run.
+
+Blockers / questions: None.

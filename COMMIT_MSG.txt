@@ -1,0 +1,1 @@
+README: animated setup guide and install, update and uninstall steps
