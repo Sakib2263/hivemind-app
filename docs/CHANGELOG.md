@@ -1,5 +1,17 @@
 # What's new
 
+## 2026.11.24.1 — November 24, 2026
+
+- **Improved:** The installed Hivemind version is always shown at the bottom of the sidebar.
+- **Fixed:** Turning on the usage overlay no longer shows a false "did not write its start line" error.
+- **Fixed:** Updating no longer stops when the app site folder was left half-way through an earlier update.
+- **Improved:** Hivemind checks AI sign-ins every hour while idle and tells you once before jobs are skipped.
+- **Improved:** When an AI model stops before doing the work, the relay nudges it once and then tries the next model.
+- **Improved:** If Codex fails, jobs move to OpenCode Go models first; a rejected key moves the job to the next model.
+- **Improved:** The keys file has separate, labelled lines for the OpenCode Zen and OpenCode Go keys.
+- **Improved:** Groundwork for local AI models (PC check, downloads, engine install, crash recovery); the setup screen comes next.
+- **Improved:** internal verification
+
 ## 2026.11.23.3 — November 23, 2026
 
 - **Improved:** Providers that need a second value (like an account ID) now ask for it when you add the key.
