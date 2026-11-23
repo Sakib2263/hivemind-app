@@ -1,5 +1,28 @@
 # What's new
 
+## 2026.11.23.3 — November 23, 2026
+
+- **Improved:** Providers that need a second value (like an account ID) now ask for it when you add the key.
+- **Improved:** When an AI account needs signing in again, its jobs now wait and you get one note, instead of failing.
+- **Improved:** Usage now counts tokens for every AI worker, including Gemini and quick-answer providers.
+- **Fixed:** The usage overlay switch starts the overlay window reliably again.
+- **Improved:** The free APIs library now also covers free tools, services, open-source projects and assets.
+- **Improved:** Background AI workers can work in any folder you allowed, not just the Hivemind folder.
+- **Improved:** Quick-answer AI models can now write files too: their answer is checked and saved by Hivemind.
+- **Improved:** AI models list is sorted best and connected first, with a search box and a clear "why" line for each model.
+- **Improved:** Cancelled jobs look different from failed ones, and the app shows when the lead AI will check in next.
+- **Improved:** Jobs stopped by an install, restart or your cancel no longer count as failures; interrupted ones restart on their own.
+- **Fixed:** Cancelling a waiting job now really stops it from starting.
+- **Improved:** Hivemind can use AI models running on your own PC, and local models download in the background.
+- **Improved:** The lead AI can save and push your work by itself when nothing else is running, and its own work now shows in Jobs > Lead.
+- **Improved:** OpenCode Go and OpenCode Zen have separate keys, and Hivemind checks the Go sign-in before using Go models.
+- **Improved:** The relay picks the AI model for each job from how well it did on its last 10 similar jobs.
+- **Fixed:** The size safety check only counts what the job itself changed, so check-only jobs and builds no longer fail on log and build files.
+- **Fixed:** AI workers are now told exactly which files they may edit, so fewer jobs fail for being out of scope.
+- **Fixed:** Free and Go OpenCode models can read the files they need outside the job folder (allowed folders only).
+- **Fixed:** Saving and publishing no longer shows a false error, and the app site catches up with GitHub by itself.
+- **Improved:** UI polish: cleaner Jobs table with quick retry and cancel buttons, tidier Setup and Usage screens, a smaller idle task tray, and better phone layouts.
+
 ## 2026.11.20.3 — November 20, 2026
 
 - **Improved:** The app stays signed in after an update, and the Jobs list no longer shows internal files as failed jobs.
