@@ -1,5 +1,11 @@
 # What's new
 
+## 2026.11.24.2 — November 24, 2026
+
+- **New:** Setup > Local AI: check your PC, set up a recommended model with one click, then start, stop or pause it. Hivemind installs the engine, downloads the model, keeps memory free for your other apps and restarts it after a crash.
+- **New:** Use models you already downloaded: point Local AI at the folder and it uses them without downloading again.
+- **Fixed:** Patch notes no longer include internal job lines.
+
 ## 2026.11.24.1 — November 24, 2026
 
 - **Improved:** The installed Hivemind version is always shown at the bottom of the sidebar.
