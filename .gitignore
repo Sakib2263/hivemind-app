@@ -3,3 +3,6 @@ Thumbs.db
 # local screenshots of real data: never publish
 assets/screenshots/
 graphify-out/
+
+# relay worker notes (local paths): never publish
+.relay.last
