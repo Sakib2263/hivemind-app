@@ -10,7 +10,6 @@
 - **Improved:** If Codex fails, jobs move to OpenCode Go models first; a rejected key moves the job to the next model.
 - **Improved:** The keys file has separate, labelled lines for the OpenCode Zen and OpenCode Go keys.
 - **Improved:** Groundwork for local AI models (PC check, downloads, engine install, crash recovery); the setup screen comes next.
-- **Improved:** internal verification
 
 ## 2026.11.23.3 — November 23, 2026
 
