@@ -1,12 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" font-family="Inter,Segoe UI,Arial,sans-serif">
-  <rect width="960" height="220" rx="18" fill="#16181d"/>
-  <path id="flow" d="M110 110 H850" stroke="#2c313b" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <g font-size="15" fill="#e8eaef" text-anchor="middle">
-    <g><circle cx="110" cy="110" r="38" fill="#1f2430" stroke="#7aa2ff" stroke-width="2"><animate attributeName="stroke-width" values="2;5;2" dur="6s" begin="0s" repeatCount="indefinite"/></circle><text x="110" y="115">You ask</text><text x="110" y="175" font-size="12" fill="#9aa3b2">chat or task</text></g>
-    <g><circle cx="295" cy="110" r="38" fill="#1f2430" stroke="#b38cff" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.2;0.3;1" dur="6s" repeatCount="indefinite"/></circle><text x="295" y="115">Lead plans</text><text x="295" y="175" font-size="12" fill="#9aa3b2">Claude: small jobs + checks</text></g>
-    <g><circle cx="480" cy="110" r="38" fill="#1f2430" stroke="#4fd1a5" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.4;0.5;1" dur="6s" repeatCount="indefinite"/></circle><text x="480" y="115">Free AIs build</text><text x="480" y="175" font-size="12" fill="#9aa3b2">best model per task</text></g>
-    <g><circle cx="665" cy="110" r="38" fill="#1f2430" stroke="#ffc861" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.6;0.7;1" dur="6s" repeatCount="indefinite"/></circle><text x="665" y="115">Scripts check</text><text x="665" y="175" font-size="12" fill="#9aa3b2">tests decide, not models</text></g>
-    <g><circle cx="850" cy="110" r="38" fill="#1f2430" stroke="#7aa2ff" stroke-width="2"><animate attributeName="stroke-width" values="2;2;5;2" keyTimes="0;0.8;0.9;1" dur="6s" repeatCount="indefinite"/></circle><text x="850" y="115">Done</text><text x="850" y="175" font-size="12" fill="#9aa3b2">reviewed + saved</text></g>
-  </g>
-  <circle r="7" fill="#e8eaef"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#flow"/></animateMotion></circle>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 350" role="img" aria-labelledby="title desc" font-family="Inter,Segoe UI,Arial,sans-serif">
+<title id="title">How Hivemind works</title><desc id="desc">A lead AI plans small jobs, workers try them, and checks route passing work to you or retrying with another model.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171b27"/><stop offset="1" stop-color="#11151e"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#81a8ff"/><stop offset="1" stop-color="#a891ff"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="retryArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4 0 8" fill="#ff8da2"/></marker>
+  <marker id="doneArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4 0 8" fill="#69d8b0"/></marker>
+  <path id="p1" d="M125 143H190"/><path id="p2" d="M350 143H414"/>
+  <path id="fan1" d="M586 143C615 143 620 77 646 77"/><path id="fan2" d="M586 143C615 143 620 107 646 107"/><path id="fan3" d="M586 143C615 143 620 137 646 137"/><path id="fan4" d="M586 143C615 143 620 167 646 167"/><path id="fan5" d="M586 143C615 143 620 197 646 197"/><path id="fan6" d="M586 143C615 143 620 227 646 227"/><path id="fan7" d="M586 143C615 143 620 257 646 257"/>
+  <path id="checkpath" d="M786 143H826"/><path id="passpath" d="M875 124C887 118 894 114 900 114"/>
+  <path id="failpath" d="M873 163V286H586V191"/>
+</defs>
+<rect width="960" height="350" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="958" height="348" rx="23" fill="none" stroke="#2c3444"/>
+<text x="38" y="42" fill="#f3f5fb" font-size="21" font-weight="700">From your request to checked work</text><text x="38" y="65" fill="#8f9bb0" font-size="12">A lead AI breaks work into small jobs. Workers try each job; checks decide what happens next.</text>
+<!-- main flow lines -->
+<g fill="none" stroke="#394457" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M125 143H190"/><path d="M350 143H414"/><path d="M586 143C615 143 620 77 646 77M586 143C615 143 620 107 646 107M586 143C615 143 620 137 646 137M586 143C615 143 620 167 646 167M586 143C615 143 620 197 646 197M586 143C615 143 620 227 646 227M586 143C615 143 620 257 646 257"/><path d="M786 143H826"/></g>
+<path d="M875 124C887 118 894 114 900 114" fill="none" stroke="#69d8b0" stroke-width="2.5" marker-end="url(#doneArrow)"/>
+<path d="M873 163V286H586V191" fill="none" stroke="#ff8da2" stroke-width="2.5" stroke-dasharray="7 6" stroke-linecap="round" marker-end="url(#retryArrow)"/>
+<!-- flow nodes -->
+<g text-anchor="middle">
+ <rect x="40" y="111" width="85" height="64" rx="16" fill="#202a3a" stroke="#6f9aff" stroke-width="1.5"/><text x="82.5" y="150" fill="#f1f5ff" font-size="16" font-weight="650">You</text>
+ <rect x="190" y="95" width="160" height="96" rx="17" fill="#262338" stroke="#a790ff" stroke-width="1.5"/><text x="270" y="122" fill="#f4efff" font-size="15" font-weight="700">Lead AI plans</text><text x="270" y="145" fill="#c8c0e9" font-size="12">Claude Code, Codex</text><text x="270" y="161" fill="#c8c0e9" font-size="12">desktop, or Hivemind</text><text x="270" y="177" fill="#c8c0e9" font-size="12">chat</text>
+ <rect x="414" y="95" width="172" height="96" rx="17" fill="#202c32" stroke="#56cba5" stroke-width="1.5"/><text x="500" y="126" fill="#e8fff7" font-size="15" font-weight="700">Job queue</text><text x="500" y="148" fill="#a9cfc2" font-size="12">Small jobs, each with a test</text><g fill="#56cba5"><rect x="461" y="163" width="24" height="5" rx="2.5"/><rect x="489" y="163" width="24" height="5" rx="2.5" opacity=".65"/><rect x="517" y="163" width="24" height="5" rx="2.5" opacity=".35"/></g>
+ <text x="716" y="54" fill="#9ca9bf" font-size="12" letter-spacing="1.2">WORKER LANES</text>
+ <g fill="#202837" stroke="#607da9"><rect x="646" y="65" width="140" height="24" rx="8"/><rect x="646" y="95" width="140" height="24" rx="8"/><rect x="646" y="125" width="140" height="24" rx="8"/><rect x="646" y="155" width="140" height="24" rx="8"/><rect x="646" y="185" width="140" height="24" rx="8"/><rect x="646" y="215" width="140" height="24" rx="8"/><rect x="646" y="245" width="140" height="24" rx="8"/></g>
+ <g fill="#eaf0fb" font-size="12" font-weight="600"><text x="716" y="81">Codex</text><text x="716" y="111">OpenCode free models</text><text x="716" y="141">Gemini (Antigravity)</text><text x="716" y="171">Groq</text><text x="716" y="201">Cloudflare Workers AI</text><text x="716" y="231">DeepSeek</text><text x="716" y="261">Scripts</text></g>
+ <path d="M786 77V257M786 143H826" fill="none" stroke="#536177" stroke-width="2.5"/>
+ <path d="M855 116L882 143 855 170 828 143Z" fill="#312d20" stroke="#f2c36d" stroke-width="1.5"/><text x="855" y="147" fill="#fff1d1" font-size="12" font-weight="700">Test</text>
+ <rect x="826" y="48" width="110" height="64" rx="14" fill="#1c302e" stroke="#64d6ac" stroke-width="1.5"/><text x="881" y="73" fill="#dffff3" font-size="12" font-weight="700">Done</text><text x="881" y="96" fill="#a6d6c4" font-size="12">+ note to you</text>
+</g>
+<rect x="554" y="266" width="210" height="36" rx="18" fill="#2a2027" stroke="#995c70"/><text x="659" y="290" fill="#f4c4ce" font-size="12" font-weight="600" text-anchor="middle">Fail → next model tries</text>
+<text x="38" y="330" fill="#7f8ca2" font-size="12">Workers run in parallel where the job allows. A failed check returns the job to the queue for another model.</text>
+<!-- sequenced moving dots; each segment gets a timed window in the 8s cycle -->
+<g fill="#e4ecff" filter="url(#glow)"><circle r="4.3"><animateMotion dur="8s" repeatCount="indefinite" begin="0s" keyTimes="0;.13;1" keyPoints="0;1;1" calcMode="linear"><mpath href="#p1"/></animateMotion></circle><circle r="4.3"><animateMotion dur="8s" repeatCount="indefinite" begin="0s" keyTimes="0;.13;.28;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#p2"/></animateMotion></circle><circle r="4"><animateMotion dur="8s" repeatCount="indefinite" begin="0s" keyTimes="0;.28;.47;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#fan2"/></animateMotion></circle><circle r="4.2" fill="#9cf1d4"><animateMotion dur="8s" repeatCount="indefinite" begin="0s" keyTimes="0;.47;.62;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#checkpath"/></animateMotion></circle><circle r="4.2" fill="#9cf1d4"><animateMotion dur="8s" repeatCount="indefinite" begin="0s" keyTimes="0;.62;.78;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#passpath"/></animateMotion></circle><circle r="4" fill="#ffc0cc"><animateMotion dur="8s" repeatCount="indefinite" begin="0s" keyTimes="0;.78;.92;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#failpath"/></animateMotion></circle></g>
 </svg>
