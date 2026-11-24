@@ -1,5 +1,15 @@
 # What's new
 
+## 2026.11.24.3 — November 24, 2026
+
+- **Improved:** Setup is rebuilt: four summary tiles, one line per AI account with a plain reason and one button, and only the PC checks that need you. Rarely used tools moved under Advanced.
+- **Improved:** Providers you never set up are listed under "More providers you can add" instead of showing as errors.
+- **Fixed:** Local AI finds the graphics card and full memory of Windows PCs.
+- **Fixed:** Local AI works with models you already downloaded: point it at the folder and it reuses the files and the engine found there.
+- **Fixed:** Local AI uses the tested speed settings for each model and connects correctly from Hivemind's background service on Windows.
+- **Fixed:** AI model checks no longer show "Unknown alias" for OpenCode Go and NVIDIA models.
+- **Fixed:** A failed background job only undoes its own files, never other work in the same folder.
+
 ## 2026.11.24.2 — November 24, 2026
 
 - **New:** Setup > Local AI: check your PC, set up a recommended model with one click, then start, stop or pause it. Hivemind installs the engine, downloads the model, keeps memory free for your other apps and restarts it after a crash.
