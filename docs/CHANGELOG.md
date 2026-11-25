@@ -1,5 +1,16 @@
 # What's new
 
+## 2026.11.25.1 — November 25, 2026
+
+- **New:** Chats can use Antigravity's top models (Gemini 4 Neon, Claude Opus 5.5) as the main agent for planning, next to Claude and Codex.
+- **Improved:** 3D models, shaders, rigs, effects and SVG art go to Gemini 4 Neon first.
+- **Fixed:** Local AI starts and answers on Windows: it finds the model list, the full PC memory and shows the real speed.
+- **Fixed:** "Update model order" no longer breaks the settings file or puts free models ahead of better ones.
+- **Fixed:** A job that names a model now always tries that model first.
+- **Fixed:** Two free OpenCode models that were withdrawn are replaced with working ones.
+- **Improved:** Saves and pushes verified work.
+- **Improved:** Each AI model gets its own time for a job, so one stuck model can no longer use up the time of the next one.
+
 ## 2026.11.24.3 — November 24, 2026
 
 - **Improved:** Setup is rebuilt: four summary tiles, one line per AI account with a plain reason and one button, and only the PC checks that need you. Rarely used tools moved under Advanced.
