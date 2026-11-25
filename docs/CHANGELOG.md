@@ -1,5 +1,14 @@
 # What's new
 
+## 2026.11.26.1 — November 26, 2026
+
+- **New:** Live Hive Map in Jobs — watch active leads, queued tasks, AI models, fallbacks, and checks live in real time, with an opt-in Demo simulation mode and a Dashboard shortcut.
+- **New:** Cross-model skill injection — worker models across all connected providers now receive concise, task-matched skill rules automatically.
+- **New:** Isolated workspace mode for background jobs — opt-in temporary copies merge passing work cleanly and discard failed attempts without touching your live project folder.
+- **Improved:** Cleaner, faster UI across the app — Usage now opens with a multi-lead summary, clearly labeled pass rates, and tabbed analytics; Project chats use compact action menus; Chat shows the active main agent and fits phone screens cleanly; Jobs shows real lead models and token costs with fewer tabs; Save & update hides technical Git details in a toggle.
+- **Improved:** Unified local tracking records token usage and costs locally for all connected workers and main agents.
+- **Fixed:** Resolved background worker issues that could falsely reject small edits to larger files, truncate checks containing commas, lose events across log chunks, or ignore a job's chosen provider and model.
+
 ## 2026.11.25.1 — November 25, 2026
 
 - **New:** Chats can use Antigravity's top models (Gemini 4 Neon, Claude Opus 5.5) as the main agent for planning, next to Claude and Codex.
