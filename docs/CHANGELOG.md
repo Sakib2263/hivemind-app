@@ -1,5 +1,12 @@
 # What's new
 
+## 2026.11.26.2 — November 26, 2026
+
+- **New:** Parallel isolated workspaces — background jobs touching different files in the same project can now run side by side safely and merge in order, with automatic subdirectory and `node_modules` support.
+- **New:** Built-in Ollama and LM Studio support alongside Local AI — Hivemind automatically detects running local models and uses them for quick tasks, falling back to cloud models immediately when offline.
+- **New:** Cross-vendor Plan Council vetting — high-impact plans can now be checked by a zero-cost linter and vetted read-only by a second AI vendor with strict security-blocker protection before jobs run.
+- **Improved:** Live Hive Map now includes an Active-only filter, Local model badges, and recent pass/fail and skill details when inspecting any model node.
+
 ## 2026.11.26.1 — November 26, 2026
 
 - **New:** Live Hive Map in Jobs — watch active leads, queued tasks, AI models, fallbacks, and checks live in real time, with an opt-in Demo simulation mode and a Dashboard shortcut.
