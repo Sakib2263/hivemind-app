@@ -1,5 +1,12 @@
 # What's new
 
+## 2026.11.27.2 — November 27, 2026
+
+- **Improved:** Local AI answers short questions in a few seconds: hidden thinking is off by default, and the vision file only loads when needed so the model stays in graphics memory.
+- **Improved:** Local AI uses a 32K context with an 8-bit memory cache, keeping about 27-31 tokens per second on a 12 GB card.
+- **Fixed:** On a PC without a local model, jobs skip the local model in about a second instead of trying it and failing.
+- **Improved:** Your local AI model is only a backup: quick questions, reviews and small jobs try cloud models first.
+
 ## 2026.11.27.1 — November 27, 2026
 
 - **Improved:** # Patch notes for the next publish
