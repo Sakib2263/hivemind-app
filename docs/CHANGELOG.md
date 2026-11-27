@@ -1,5 +1,13 @@
 # What's new
 
+## 2026.11.27.1 — November 27, 2026
+
+- **Improved:** # Patch notes for the next publish
+- **Improved:** Quick questions and reviews use your local AI model first when it is running, then cloud models.
+- **Fixed:** Hivemind finds the local model and signs in to it correctly.
+- **Improved:** Local AI starts again by itself when the app starts, if it was running before.
+- **Fixed:** Deleting a chat could freeze the app.
+
 ## 2026.11.26.2 — November 26, 2026
 
 - **New:** Parallel isolated workspaces — background jobs touching different files in the same project can now run side by side safely and merge in order, with automatic subdirectory and `node_modules` support.
